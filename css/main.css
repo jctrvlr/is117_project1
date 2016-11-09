@@ -1,4 +1,5 @@
 html, body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   height: 100%;
   padding: 0px;
   margin: 0px;
@@ -26,11 +27,15 @@ body {
   height: 70px;
   text-align: center;
 }
+#nav {
+  float: left;
+  margin-left: 15px;
+}
 #nav ul {
   padding: 0px;
   margin: 0px;
   padding-right: 50px;
-  float: right;
+  float: left;
   text-align: right;
   display: inline-block;
   vertical-align: top;
@@ -61,11 +66,21 @@ body {
   background-color: #76C2DB;
 }
 #main {
-  padding-top: 25px;
-  padding-left: 50px;
-  padding-right: 50px;
+  background-image: linear-gradient(#92CBDE, #9ACBDB);
+  margin-top: 35px;
+  width: 960px;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 10px;
+}
+.div_link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left 0;
+
+  z-index: 1;
 }
 #banner {
   width: 100% !important;
@@ -75,11 +90,21 @@ body {
   width: 100% !important;
 
 }
+#title {
+  background-color: #76C2DB;
+  border-radius: 25px;
+  margin: 15px;
+  padding: 15px 15px;
+}
 .info {
+  background-color: #76C2DB;
+  border-radius: 25px;
   width: 25%;
-  height: 250px;
+  height: 150px;
+  margin: 25px;
   padding:15px 15px;
   display: inline-block;
+  vertical-align: top;
   position: relative;
 }
 #bottom {
