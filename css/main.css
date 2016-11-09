@@ -92,9 +92,12 @@ body {
 }
 #title {
   background-color: #76C2DB;
-  border-radius: 25px;
-  margin: 15px;
-  padding: 15px 15px;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#title h2 {
+  padding-left: 20px;
 }
 .info {
   background-color: #76C2DB;
@@ -110,6 +113,10 @@ body {
 #bottom {
   margin: 0; 
   padding: 0;
+}
+#history {
+  margin: 15px;
+  padding-bottom: 15px;
 }
 #main button {
   position: relative;
