@@ -128,4 +128,6 @@ body {
   padding: 15px 15px;
   border-radius: 25px;
 }
-
+.gallery img{
+  width:200px;
+}

@@ -82,6 +82,12 @@ body {
   display: inline-block;
   position: relative;
 }
+.gallery img{
+  width:200px;
+  height:200px;
+  padding:15px 15px;
+
+}
 #bottom {
   margin: 0; 
   padding: 0;
